@@ -1,0 +1,13 @@
+This repository contains Python scripts that demonstrate the use of exception handling in Python. Each script focuses on a different aspect of working with exceptions and showcases various techniques and best practices.
+
+List of Scripts
+0-safe_print_list.py: This script defines a function safe_print_list that prints the specified number of elements from a given list. It demonstrates the use of the try and except statements to handle exceptions and meet the specified requirements.
+1-safe_print_integer.py: This script defines a function safe_print_integer that prints an integer value. It utilizes the try and except statements to handle exceptions and determine if the value is an integer.
+2-safe_print_list_integers.py: This script defines a function safe_print_list_integers that prints the specified number of integers from a given list. It uses the try and except statements to handle exceptions and only prints the integers, skipping other types of values.
+3-safe_print_division.py: This script defines a function safe_print_division that divides two integers and prints the result. It showcases the use of the try, except, and finally statements to handle exceptions and display the division result.
+4-list_division.py: This script defines a function list_division that divides two lists element by element and returns a new list with the division results. It demonstrates the use of the try, except, and finally statements to handle exceptions and perform the necessary calculations.
+5-raise_exception.py: This script defines a function raise_exception that raises a type exception. It shows how to use the raise statement to raise an exception without importing any modules.
+6-raise_exception_msg.py: This script defines a function raise_exception_msg that raises a name exception with a custom message. It illustrates how to raise an exception with a message using the raise statement without importing any modules.
+100-safe_print_integer_err.py: This script defines a function safe_print_integer_err that prints an integer value. It returns True if the value has been correctly printed (integer) and False otherwise. Additionally, it prints the error message to stderr in case of an exception.
+101-safe_function.py: This script defines a function safe_function that executes a function safely. It catches any exceptions that may occur during the execution and returns the result of the function. If an exception occurs, it returns None and prints the error message to stderr.
+102-magic_calculation.py: This script defines a function magic_calculation that performs a series of calculations. The bytecode of the function is provided as a comment in the script.
